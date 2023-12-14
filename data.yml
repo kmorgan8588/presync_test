@@ -7,9 +7,15 @@ locations:
       "96":
         database: COALESCE_SAMPLE_DATABASE
         schema: TPCH_SF001
+      "97":
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
   STG:
     mappingDefinitions:
       "96":
+        database: ""
+        schema: ""
+      "97":
         database: ""
         schema: ""
 macros: {}
