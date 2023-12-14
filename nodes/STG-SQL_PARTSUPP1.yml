@@ -1,0 +1,33 @@
+steps:
+  SQL_PARTSUPP1-d3cf5626-13c2-44ff-9d06-b91d07380975:
+    operation:
+      config:
+        SQL1: ""
+      database: ""
+      deployEnabled: true
+      description: ""
+      isMultisource: false
+      locationName: STG
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns: []
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: STG
+                nodeName: STG_PARTSUPP
+            join:
+              joinCondition: FROM {{ ref('STG', 'STG_PARTSUPP') }} "STG_PARTSUPP"
+            name: SQL_PARTSUPP1
+            noLinkRefs: []
+      name: SQL_PARTSUPP1
+      overrideSQL: false
+      schema: ""
+      sqlType: "43"
+      type: sql
+    stepCounter: d3cf5626-13c2-44ff-9d06-b91d07380975
