@@ -13,8 +13,8 @@ locations:
   STG:
     mappingDefinitions:
       "96":
-        database: ""
-        schema: ""
+        database: KYLE_EDW
+        schema: PRESYNC_QA
       "97":
         database: ""
         schema: ""
