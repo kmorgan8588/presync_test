@@ -7,17 +7,11 @@ locations:
       "96":
         database: COALESCE_SAMPLE_DATABASE
         schema: TPCH_SF001
-      "97":
-        database: COALESCE_SAMPLE_DATABASE
-        schema: TPCH_SF001
   STG:
     mappingDefinitions:
       "96":
         database: KYLE_EDW
         schema: PRESYNC_QA
-      "97":
-        database: ""
-        schema: ""
 macros: {}
 packages: {}
 projects: {}
