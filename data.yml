@@ -1,17 +1,7 @@
 defaultStorageMapping: SRC
 installedPackages: {}
 jobs: {}
-locations:
-  SRC:
-    mappingDefinitions:
-      "96":
-        database: ""
-        schema: ""
-  STG:
-    mappingDefinitions:
-      "96":
-        database: ""
-        schema: ""
+locations: {}
 macros: {}
 packages: {}
 projects: {}
