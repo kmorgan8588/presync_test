@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "102"
+mappingDefinitions:
+  DEST:
+    database: KYLE_EDW
+    schema: CLEAN2
+  SRC:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+name: Another Deploy
+type: Environment
